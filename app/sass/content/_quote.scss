@@ -1,0 +1,54 @@
+.quote{
+  position: relative;
+  display: block;
+  width: 100%;
+  float: left;
+  background: url('../img/qoute-bg.png') no-repeat;
+  background-size: cover;
+  &__wrapper{
+    position: relative;
+    display: block;
+    width: 700px;
+    margin: 100px auto;
+    &__title{
+      text-align: center;
+      color: #fff;
+      font-size: 34px;
+      font-family: $latoBold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    &__text{
+      margin: 10px 0;
+      text-align: center;
+      color: #fff;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: normal;
+    }
+    button{
+      color: #fff;
+      width: 180px;
+      height: 45px;
+      margin: 40px  auto 0 auto;
+      display: block;
+      outline: none;
+      background: transparent;
+      font-size: 15px;
+      text-transform: uppercase;
+      border: 1px solid #fff;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .quotes{
+      font-size: 400px;
+      position: absolute;
+      color: #fff;
+      opacity: 0.3;
+      font-family: $qanelasExtra;
+      top: -185px;
+      left: -53px;
+
+    }
+  }
+}

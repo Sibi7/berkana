@@ -4,6 +4,7 @@ $latoBlack: 'latoBlack';
 $latoBold: 'LatoBold';
 $latoReg: 'LatoRegular';
 $openSansSemiB: 'OpenSansSemibold';
+$qanelasExtra: 'QanelasExtraBold';
 
 
 @font-face {
@@ -42,5 +43,16 @@ $openSansSemiB: 'OpenSansSemibold';
   url('../fonts/OpenSans/OpenSansSemibold.woff') format('woff'),
   url('../fonts/OpenSans/OpenSansSemibold.ttf') format('truetype'),
   url('../fonts/OpenSans/OpenSansSemibold.svg') format('svg');
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: 'QanelasExtraBold';
+  src: url('../fonts/Qanelas/Qanelas-ExtraBold.eot') format('embedded-opentype'),
+  url('../fonts/Qanelas/Qanelas-ExtraBold.woff2') format('woff2'),
+  url('../fonts/Qanelas/Qanelas-ExtraBold.woff') format('woff'),
+  url('../fonts/Qanelas/Qanelas-ExtraBold.ttf') format('truetype'),
+  url('../fonts/Qanelas/Qanelas-ExtraBold.svg') format('svg');
   font-weight: normal;
 }
