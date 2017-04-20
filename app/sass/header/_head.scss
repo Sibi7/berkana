@@ -3,46 +3,85 @@
   float: left;
   display: block;
   width: 100%;
-  height: 450px;
   background: url("../img/head-bg.jpg") no-repeat;
   background-size: cover;
-  &__logo {
-    width: 180px;
+  &__wrapper{
     position: relative;
     float: left;
     display: block;
-    margin-top: 5px;
-    margin-left: 60px;
-    img {
-      width: 100%;
-      object-fit: cover;
-    }
-  }
-  &__nav {
-    display: block;
-    position: relative;
-    float: right;
-    margin-right: 60px;
-    &__menu {
-      li {
-        list-style: none;
-        display: inline-block;
-        margin-right: 45px;
+    width: 100%;
+    &__logo {
+      width: 180px;
+      position: relative;
+      float: left;
+      display: block;
+      margin-top: 5px;
+      margin-left: 60px;
+      a{
+        display: block;
         float: left;
         position: relative;
-        a {
-          color: #fff;
-          font-size: 14px;
-          text-transform: uppercase;
-        }
+      }
+      img {
+        width: 100%;
+        object-fit: cover;
       }
     }
+    &__nav {
+      display: block;
+      position: relative;
+      float: right;
+      margin-right: 60px;
+      &__menu {
+        li {
+          list-style: none;
+          display: inline-block;
+          margin-right: 45px;
+          float: left;
+          position: relative;
+          a {
+            color: #fff;
+            font-size: 14px;
+            text-transform: uppercase;
+          }
+        }
+      }
 
+    }
   }
   &__content {
-    width: 500px;
+    width: 507px;
     display: block;
-    position: relative;
     float: left;
+    position: relative;
+    margin-left: 140px;
+    margin-bottom: 90px;
+    margin-top: 60px;
+    h1{
+      font-family: $latoBold;
+      font-size: 42px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+    p{
+      color: #fff;
+      font-family: $latoReg;
+      font-size: 23px;
+    }
+    button{
+      float: right;
+      display: block;
+      margin-top: 30px;
+      font-family: $latoBlack;
+      padding: 15px 15px;
+      outline: none;
+      cursor: pointer;
+      background: transparent;
+      color: #fff;
+      border-radius: 10px;
+      border: 1px solid #fff;
+      text-transform: uppercase;
+      font-size: 15px;
+    }
   }
 }
