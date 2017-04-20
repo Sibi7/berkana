@@ -1,4 +1,4 @@
-.header{
+.header {
   position: relative;
   float: left;
   display: block;
@@ -6,34 +6,43 @@
   height: 450px;
   background: url("../img/head-bg.jpg") no-repeat;
   background-size: cover;
-  &__logo{
+  &__logo {
     width: 180px;
     position: relative;
     float: left;
     display: block;
     margin-top: 5px;
     margin-left: 60px;
-    img{
+    img {
       width: 100%;
       object-fit: cover;
     }
   }
-  &__nav{
+  &__nav {
     display: block;
     position: relative;
     float: right;
     margin-right: 60px;
-    &__menu{
-     li{
-       list-style: none;
-       display: inline-block;
-       margin-right: 45px;
-       a{
-         color: #fff;
-         font-size: 14px;
-         text-transform: uppercase;
-       }
-     }
+    &__menu {
+      li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 45px;
+        float: left;
+        position: relative;
+        a {
+          color: #fff;
+          font-size: 14px;
+          text-transform: uppercase;
+        }
+      }
     }
+
+  }
+  &__content {
+    width: 500px;
+    display: block;
+    position: relative;
+    float: left;
   }
 }
