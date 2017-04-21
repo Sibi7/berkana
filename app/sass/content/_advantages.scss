@@ -1,0 +1,23 @@
+.advantages{
+  background: #edeef0;
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  h2{
+    text-transform: uppercase;
+  }
+  .products-berkana__why-we-wrapper__title{
+    margin-top: 30px;
+    span{
+      font-family: $latoBlack;
+
+    }
+  }
+  .products-berkana__why-we-wrapper__wrap__item {
+    width: 280px;
+    display: block;
+    position: relative;
+    margin: 20px auto;
+  }
+}
