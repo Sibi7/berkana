@@ -5,6 +5,7 @@ $latoBold: 'LatoBold';
 $latoReg: 'LatoRegular';
 $openSansSemiB: 'OpenSansSemibold';
 $qanelasExtra: 'QanelasExtraBold';
+$montserratBlack: 'MontserratBlack';
 
 
 @font-face {
@@ -54,5 +55,15 @@ $qanelasExtra: 'QanelasExtraBold';
   url('../fonts/Qanelas/Qanelas-ExtraBold.woff') format('woff'),
   url('../fonts/Qanelas/Qanelas-ExtraBold.ttf') format('truetype'),
   url('../fonts/Qanelas/Qanelas-ExtraBold.svg') format('svg');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'MontserratBlack';
+  src: url('../fonts/MontserratBlack/MontserratBlack.eot') format('embedded-opentype'),
+  url('../fonts/MontserratBlack/MontserratBlack.woff2') format('woff2'),
+  url('../fonts/MontserratBlack/MontserratBlack.woff') format('woff'),
+  url('../fonts/MontserratBlack/MontserratBlack.ttf') format('truetype'),
+  url('../fonts/MontserratBlack/MontserratBlack.svg') format('svg');
   font-weight: normal;
 }
