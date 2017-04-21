@@ -1,5 +1,28 @@
+@media only screen and (max-width: 1199px) {
+  .header-contacts__mail {;
+    margin-right: 100px;
+  }
+  .header__wrapper__logo {
+    margin-left: 0;
+  }
+  .header-contacts__social {
+    margin-right: 0;
+    width: 50%;
+    text-align: right;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
-	
+  .header-contacts__mail {
+    width: 50%;
+    float: left;
+    margin-right: 0;
+  }
+  .header-contacts__social {
+    width: 50%;
+    text-align: right;
+    margin-right: 0;
+  }
 }
 
 @media only screen and (max-width: 980px) {
