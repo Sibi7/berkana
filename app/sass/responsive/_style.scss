@@ -10,19 +10,31 @@
     width: 50%;
     text-align: right;
   }
+  .header__wrapper__nav {
+    margin-right: 0;
+  }
+  .header__wrapper__nav ul li:last-child{
+    margin-right: 8px;
+  }
+  .header-contacts__mail {
+    float: left;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
+  .header__wrapper__nav__menu li {
+    margin-right: 25px;
+  }
+  .products-berkana__wrapper__text {
+    float: left;
+    width: 100%;
+  }
   .header-contacts__mail {
     width: 50%;
     float: left;
     margin-right: 0;
   }
-  .header-contacts__social {
-    width: 50%;
-    text-align: right;
-    margin-right: 0;
-  }
+
 }
 
 @media only screen and (max-width: 980px) {
@@ -30,17 +42,258 @@
 }
 
 @media only screen and (max-width: 770px) {
-	
+  .header__wrapper__nav {
+    display: none;
+  }
+  .header__wrapper__nav__menu li {
+    margin-right: 18px;
+  }
+  .quote__wrapper {
+    width: 100%;
+    margin: 100px auto;
+  }
+  .header-contacts__social {
+    width: 50%;
+    text-align: right;
+    margin-right: 0;
+  }
+  .footer__wrapper {
+    width: 100%;
+  }
+  .footer__wrapper__form {
+    float: none;
+    margin: 0 auto;
+  }
+  .footer__wrapper h1, .footer__wrapper p {
+    text-align: center;
+  }
+  .footer__wrapper__contacts {
+    text-align: center;
+  }
+  .footer-nav__navigation {
+    width: 420px;
+    margin-right: 41px;
+  }
 }
 
 @media only screen and (max-width: 736px) {
-	
+  .header__wrapper__nav {
+    display: none;
+  }
+  .header__content {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+  .header__content button {
+    float: none;
+    display: block;
+    margin: 30px auto;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  .header-contacts__mail {
+    width: 70%;
+    float: left;
+    display: block;
+    margin-right: 0;
+    height: 47px;
+  }
+  .header-contacts__social {
+    width: 28%;
+  }
+  .products-berkana__wrapper__h1 h1 {
+    width: 100%;
+  }
+  .products-berkana__why-we-wrapper__wrap {
+    width: 100%;
+  }
+  .footer__wrapper h1 {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  .footer__wrapper p {
+    margin: 0;
+    font-size: 31px;
+  }
+  .footer__wrapper__contacts {
+    margin: 20px 0;
+  }
+  .footer__wrapper__form__item {
+    float: left;
+  }
+  .footer__wrapper__form__item input {
+    width: 100%;
+  }
+  .footer__wrapper__form__item textarea {
+    width: 100%;
+  }
+  .footer__wrapper form{
+    width: 100%;
+  }
+  .footer__wrapper__form__label {
+    float: left;
+    position: relative;
+    width: 50px;
+    font-size: 11px;
+    color: #9fa1a5;
+    text-transform: uppercase;
+    bottom: -87px;
+    z-index: 1;
+  }
+  .footer__wrapper__form__item input, .footer__wrapper__form__item textarea, .footer__wrapper form {
+    width: 100%;
+    position: relative;
+    top: -133px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-	
+  .header__wrapper__nav {
+    display: none;
+  }
+  .header__content {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+  .header__content button {
+    float: none;
+    display: block;
+    margin: 30px auto;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  .header-contacts__mail {
+    width: 70%;
+    float: left;
+    display: block;
+    margin-right: 0;
+    height: 47px;
+  }
+  .header-contacts__social {
+    width: 28%;
+  }
+  .products-berkana__wrapper__h1 h1 {
+    width: 100%;
+  }
+  .products-berkana__why-we-wrapper__wrap {
+    width: 100%;
+  }
+  .footer__wrapper h1 {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  .footer__wrapper p {
+    margin: 0;
+    font-size: 31px;
+  }
+  .footer__wrapper__contacts {
+    margin: 20px 0;
+  }
+  .footer__wrapper__form__item {
+    float: left;
+  }
+  .footer__wrapper__form__item input {
+    width: 100%;
+  }
+  .footer__wrapper__form__item textarea {
+    width: 100%;
+  }
+  .footer__wrapper form{
+    width: 100%;
+  }
+  .footer__wrapper__form__label {
+    float: left;
+    position: relative;
+    width: 50px;
+    font-size: 11px;
+    color: #9fa1a5;
+    text-transform: uppercase;
+    bottom: -87px;
+    z-index: 1;
+  }
+  .footer__wrapper__form__item input, .footer__wrapper__form__item textarea, .footer__wrapper form {
+    width: 100%;
+    position: relative;
+    top: -133px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
-	
+  .header__wrapper__nav {
+    display: none;
+  }
+  .header__content {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+  .header__content button {
+    float: none;
+    display: block;
+    margin: 30px auto;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  .header-contacts__mail {
+    width: 70%;
+    float: left;
+    display: block;
+    margin-right: 0;
+    height: 47px;
+  }
+  .header-contacts__social {
+    width: 28%;
+  }
+  .products-berkana__wrapper__h1 h1 {
+    width: 100%;
+  }
+  .products-berkana__why-we-wrapper__wrap {
+    width: 100%;
+  }
+  .footer__wrapper h1 {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  .footer__wrapper p {
+    margin: 0;
+    font-size: 31px;
+  }
+  .footer__wrapper__contacts {
+    margin: 20px 0;
+  }
+  .footer__wrapper__form__item {
+    float: left;
+  }
+  .footer__wrapper__form__item input {
+    width: 100%;
+  }
+  .footer__wrapper__form__item textarea {
+    width: 100%;
+  }
+  .footer__wrapper form{
+    width: 100%;
+  }
+  .footer__wrapper__form__label {
+    float: left;
+    position: relative;
+    width: 50px;
+    font-size: 11px;
+    color: #9fa1a5;
+    text-transform: uppercase;
+    bottom: -87px;
+    z-index: 1;
+  }
+  .footer__wrapper__form__item input, .footer__wrapper__form__item textarea, .footer__wrapper form {
+    width: 100%;
+    position: relative;
+    top: -133px;
+  }
 }

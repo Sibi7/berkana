@@ -1,0 +1,29 @@
+.reviews {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  background: #edeef0;
+  &__wrapper {
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    &__absolute{
+      position: absolute;
+      left: 40%;
+      top:30%;
+
+    }
+
+    h1{
+      &:after{
+        background: #000;
+      }
+      span{
+        font-family: $latoBlack;
+      }
+    }
+  }
+}
