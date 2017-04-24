@@ -42,6 +42,9 @@
 }
 
 @media only screen and (max-width: 770px) {
+  .products-berkana__wrapper__text p {
+    text-align: center;
+  }
   .header__wrapper__nav {
     display: none;
   }
@@ -51,6 +54,19 @@
   .quote__wrapper {
     width: 100%;
     margin: 100px auto;
+  }
+  .footer-nav__social {
+    width: 100%;
+    margin: 30px 0 30px 0;
+    text-align: center;
+  }
+  .footer-nav__navigation ul li {
+    display: block;
+    margin: 19px 10px;
+    text-align: center;
+  }
+  .footer-nav__navigation ul li {
+    width: 100%;
   }
   .header-contacts__social {
     width: 50%;
@@ -74,11 +90,69 @@
     width: 420px;
     margin-right: 41px;
   }
+
+//  page2 internal-page
+  .header2__wrapper__nav {
+    display: none;
+  }
+
+  .header2__wrapper__logo {
+    margin-left: 0;
+  }
+
+  .header2__content {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .header2__content .buy {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .header2__content button {
+    float: none;
+    margin: 30px auto;
+  }
+
+  .function-bercana__content {
+    width: 100%;
+  }
+  .function-bercana__content p span i {
+    left: 0;
+    position: relative;
+    margin-right: 13px;
+  }
+
+  .joint-products__wrapper {
+    width: 100%;
+  }
+  .joint-products__wrapper__item {
+    margin: 50px 74px;
+  }
+  .joint-products__wrapper .owl-next {
+    right: 30px;
+  }
+  .joint-products__wrapper .owl-prev {
+    right: 30px;
+  }
+  .joint-products__wrapper .owl-prev {
+    left: 30px;
+  }
+  .reviews__wrapper__absolute {
+    left: 0;
+  }
 }
 
 @media only screen and (max-width: 736px) {
   .header__wrapper__nav {
     display: none;
+  }
+  .footer-nav__navigation {
+    width: 100%;
+    margin-right: 11px;
   }
   .header__content {
     width: 100%;
@@ -103,6 +177,7 @@
   }
   .header-contacts__social {
     width: 28%;
+    line-height: 30px;
   }
   .products-berkana__wrapper__h1 h1 {
     width: 100%;
@@ -154,6 +229,9 @@
   .header__wrapper__nav {
     display: none;
   }
+  .header2__wrapper__logo {
+    margin-top: 30px;
+  }
   .header__content {
     width: 100%;
     margin-left: 0;
@@ -177,6 +255,7 @@
   }
   .header-contacts__social {
     width: 28%;
+    line-height: 30px;
   }
   .products-berkana__wrapper__h1 h1 {
     width: 100%;
@@ -225,6 +304,9 @@
 }
 
 @media only screen and (max-width: 320px) {
+  .header2__wrapper__logo {
+    margin-top: 30px;
+  }
   .header__wrapper__nav {
     display: none;
   }
@@ -295,5 +377,12 @@
     width: 100%;
     position: relative;
     top: -133px;
+  }
+
+
+//  page 2 internal page
+
+  .joint-products__wrapper__item {
+    margin: 50px 41px;
   }
 }
