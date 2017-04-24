@@ -15,6 +15,23 @@ $(document).ready(function () {
         }
     });
 
+    $('.bercana-soft__wrapper__link a').click(function (e) {
+        $('.bercana-soft__wrapper__link a').removeClass('active');
+        $(this).addClass('active');
+
+    });
+
+    $('.tab_content').hide();
+    $('.tab_content:first').show();
+    $('.bercana-soft__wrapper__link :first').addClass('active');
+    $('.bercana-soft__wrapper__link').click(function (event) {
+        $('.bercana-soft__wrapper__link ').removeClass('active');
+        $(this).addClass('active');
+        $('.tab_content').hide();
+        var selectTab = $(this).find('a').attr("href");
+        $(selectTab).fadeIn();
+        return false;
+    });
 
 
 
