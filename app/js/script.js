@@ -34,6 +34,27 @@ $(document).ready(function () {
     });
 
 
+    //slick slider
+
+
+    $('.reviews__slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.reviews__carousel'
+    });
+    $('.reviews__carousel').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        asNavFor: '.reviews__slider',
+        dots: true,
+        centerMode: true,
+        focusOnSelect: true
+    });
+
+    //end slick slider
+
 
     //
     // /*header mobile menu*/
