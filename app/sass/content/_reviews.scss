@@ -12,8 +12,8 @@
     margin-top: 30px;
     &__absolute{
       position: absolute;
-      left: 40%;
-      top:30%;
+      left: 36%;
+      top: 13%;
 
     }
 
@@ -153,7 +153,6 @@
         background-color: #7db9bb;
       }
     }
-
   }
   button.slick-prev.slick-arrow:focus{
     outline: none;
@@ -193,5 +192,29 @@
     height: 30px;
     color: transparent;
   }
-
+  .button{
+    margin: 0 auto;
+    width: 375px;
+    margin-bottom: 40px;
+    button{
+      width: 165px;
+      height: 36px;
+      margin: 10px;
+      outline: none;
+      background-color: transparent;
+      border: 1px solid #afb0b7;
+      cursor: pointer;
+      color: #2c2c2c;
+      font-family: $latoReg;
+      text-transform: uppercase;
+      font-size: 13px;
+      border-radius: 10px;
+      &:hover{
+        color: #fff;
+        background-color: #7db9bb;
+        transition: 200ms ease;
+        font-family: $latoBlack;
+      }
+    }
+  }
 }
