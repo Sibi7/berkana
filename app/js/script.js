@@ -53,33 +53,30 @@ $(document).ready(function () {
         focusOnSelect: true
     });
 
+
+
     //end slick slider
 
 
-    //
-    // /*header mobile menu*/
-    // var pull = $('.header__wrapper__nav__menu-top'),//блок с кнопкой мобильного меню
-    //     menu = $('#hamburger'),//главное меню
-    //     button = pull.find('.fa-bars');//кнопка показать/скрыть
-    // menuHeight = menu.height();
-    //
-    // $(pull).on('click', function (e) {//при клике на мобильное меню
-    //     e.preventDefault();//убираем свойство ссылки по умолчанию
-    //     if (button.hasClass('show')) {//при наличии у кнопки активного класса
-    //         button.removeClass('show');//убираем данный класс
-    //         menu.slideUp('fast');//скрываем меню
-    //     } else {//при отсутсвии активного класса
-    //         button.addClass('show');//добовляем его кнопке
-    //         menu.slideDown('fast');//показываем меню
-    //     }
-    // });
-    // $(document).on('click', function (e) {//при клике на поле
-    //     if ($(e.target).closest('.header__navbar').length != 1) {//не содержащего навигационную панель
-    //         $('#hamburger').slideUp('fast');//скрываем меню
-    //         $('.header__wrapper__nav__menu-top').removeClass('show');//убираем у кнопки активный класс
-    //     }
-    // });
-    // /*close header mobile menu*/
+
+    /*header mobile menu*/
+    var pull = $('.menu-link'),//блок с кнопкой мобильного меню
+        menu = $('.header__wrapper__nav'),//главное меню
+        button = pull.find('span');//кнопка показать/скрыть
+    menuHeight = menu.height();
+
+    $(pull).on('click', function (e) {//при клике на мобильное меню
+        e.preventDefault();//убираем свойство ссылки по умолчанию
+        if (button.hasClass('show')) {//при наличии у кнопки активного класса
+            button.removeClass('show');//убираем данный класс
+            menu.slideUp('fast');//скрываем меню
+        } else {//при отсутсвии активного класса
+            button.addClass('show');//добовляем его кнопке
+            menu.slideDown('fast');//показываем меню
+        }
+    });
+
+    /*close header mobile menu*/
     //
     // /*animate scroll menu*/
     // $(document).on('click', '.nav-top a', function (event) {/*функция прокрутки на блок страницы при клике по элементам меню */
@@ -215,3 +212,11 @@ $(document).ready(function () {
 //         element.removeClass('fixed');
 //     }
 // }
+$(document).ready(function () {
+    var link =$('.menu-link');
+    var link_active = $('.menu-link_active');
+
+    link.click(function () {
+        link.toggleClass('menu-link_active');
+    })
+});

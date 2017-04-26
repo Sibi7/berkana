@@ -10,111 +10,11 @@
     float: left;
     width: 50%;
     margin-bottom: 50px;
-    &__form {
+    &__form{
       display: block;
-      float: right;
       position: relative;
-      width: 400px;
-      margin-top: 70px;
-      .check{
-        color: #7db9bb;
-        font-size: 18px;
-        position: absolute;
-        font-family: $openSansSemiB;
-        top: 0;
-        right: 5px;
-      }
-      .warning-in{
-        color: #da593e;
-        font-size: 18px;
-        position: absolute;
-        right: 5px;
-        font-family: $openSansSemiB;
-      }
-      &__label {
-        float: left;
-        position: relative;
-        width: 50px;
-        font-family: $latoBlack;
-        font-size: 11px;
-        color: #9fa1a5;
-        text-transform: uppercase;
-        .label1 {
-          position: relative;
-          display: block;
-          float: left;
-          margin-top: 12px;
-        }
-        .label2 {
-          position: relative;
-          display: block;
-          float: left;
-          margin-top: 55px;
-        }
-        .label3 {
-          position: relative;
-          display: block;
-          float: left;
-          margin-top: 110px;
-        }
-      }
-
-      &__item {
-        position: relative;
-        float: right;
-        input {
-          width: 300px;
-          display: block;
-          border: 0;
-          border-bottom: 2px solid #e3e3e3;
-          height: 40px;
-
-        }
-
-        textarea {
-          width: 300px;
-          display: block;
-          max-width: 300px;
-          height: 100px;
-          border: 0;
-          border-bottom: 2px solid #e3e3e3;
-          box-sizing: border-box;
-        }
-        button {
-          display: block;
-          margin: 0 auto;
-          width: 150px;
-          height: 35px;
-          background: #f1c731;
-          border: 0;
-          outline: none;
-          border-radius: 10px;
-          font-family: $latoBlack;
-          text-transform: uppercase;
-          font-size: 11px;
-        }
-        .warning {
-          font-size: 12px;
-          color: #9fa1a5;
-          text-transform: none;
-          font-family: $openSansSemiB;
-          margin-top: 12px;
-          margin-left: 0;
-          text-align: left;
-          span {
-            color: #da593e;
-            margin-right: 10px;
-          }
-        }
-
-      }
-      //.form-line{
-      //  display: block;
-      //  width: 300px;
-      //  height: 2px;
-      //  background: #e3e3e3;
-      //  position: absolute;
-      //}
+      float: left;
+      width: 100%;
     }
     h1 {
       font-size: 60px;

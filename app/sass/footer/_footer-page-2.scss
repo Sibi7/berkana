@@ -1,0 +1,24 @@
+.footer-page{
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+.footer__wrapper__form{
+  border: 1px solid #7db9bb;
+  padding: 22px;
+}
+  .footer__wrapper__form__label .label1, .label2 .label3 {
+    float: none;
+  }
+
+  .footer__wrapper {
+    width: 50%;
+    margin-bottom: 0;
+  }
+  .footer__wrapper__form {
+    margin-top: 0;
+  }
+  .footer__wrapper__contacts {
+    margin-bottom: 0;
+  }
+}
