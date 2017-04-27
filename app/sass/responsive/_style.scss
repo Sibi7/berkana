@@ -13,7 +13,7 @@
   .header__wrapper__nav {
     margin-right: 0;
   }
-  .header__wrapper__nav ul li:last-child{
+  .header__wrapper__nav ul li:last-child {
     margin-right: 8px;
   }
   .header-contacts__mail {
@@ -42,6 +42,44 @@
 }
 
 @media only screen and (max-width: 770px) {
+  .header__wrapper__nav__search {
+    top: 328px;
+    width: 250px;
+    margin: 40px auto;
+    input {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: block;
+      outline: 3px rgba(90, 176, 179, 0.9);
+      &::placeholder {
+        text-align: left;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+    }
+    input[type="search"] {
+      text-align: left;
+      padding-left: 5px;
+    }
+    button{
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      height: 100%;
+      width: 100px;
+      border: 0;
+      background-color: rgba(90, 176, 179, 0.9);
+      outline: 0;
+      color: #fff;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      cursor: pointer;
+    }
+  }
   .header__wrapper .menu-link {
     display: block;
 
@@ -49,45 +87,42 @@
   .products-berkana__wrapper__text p {
     text-align: center;
   }
-  .header .container{
+  .header .container {
     padding: 0;
   }
   .header__wrapper__nav {
     display: none;
     position: fixed;
-    background-color: rgba(90, 176, 179, 0.9);;
+    background-color: rgba(90, 176, 179, 0.9);
     padding: 0;
     top: 0;
-    margin:0;
+    margin: 0;
     z-index: 1;
     height: 100vh;
     width: 100vw;
     float: left;
-    ul{
+    ul {
       margin: 50% 0;
       padding: 0;
-      li{
+      li {
         float: none;
         display: block;
         text-align: center;
         line-height: 30px;
         margin: 0;
         padding: 0;
-        letter-spacing: 3px;
-        a{
+        letter-spacing: 2px;
+        a {
           display: block;
-          &:hover{
+          &:hover {
             display: block;
             transition: all 0.2s;
             width: 100%;
-            background-color: rgba(255,255,255,0.8);
+            background-color: rgba(255, 255, 255, 0.8);
             text-decoration: none;
             color: #333;
-
           }
-      }
-      
-        
+        }
       }
     }
   }
@@ -134,7 +169,7 @@
     margin-right: 41px;
   }
 
-//  page2 internal-page
+  //  page2 internal-page
   .header2__wrapper__nav {
     display: none;
   }
@@ -249,7 +284,7 @@
   .footer__wrapper__form__item textarea {
     width: 100%;
   }
-  .footer__wrapper form{
+  .footer__wrapper form {
     width: 100%;
   }
   .footer__wrapper__form__label {
@@ -327,7 +362,7 @@
   .footer__wrapper__form__item textarea {
     width: 100%;
   }
-  .footer__wrapper form{
+  .footer__wrapper form {
     width: 100%;
   }
   .footer__wrapper__form__label {
@@ -404,7 +439,7 @@
   .footer__wrapper__form__item textarea {
     width: 100%;
   }
-  .footer__wrapper form{
+  .footer__wrapper form {
     width: 100%;
   }
   .footer__wrapper__form__label {
@@ -423,8 +458,7 @@
     top: -133px;
   }
 
-
-//  page 2 internal page
+  //  page 2 internal page
 
   .joint-products__wrapper__item {
     margin: 50px 41px;

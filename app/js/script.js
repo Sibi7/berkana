@@ -18,7 +18,6 @@ $(document).ready(function () {
     $('.bercana-soft__wrapper__link a').click(function (e) {
         $('.bercana-soft__wrapper__link a').removeClass('active');
         $(this).addClass('active');
-
     });
 
     $('.tab_content').hide();
@@ -75,8 +74,19 @@ $(document).ready(function () {
             menu.slideDown('fast');//показываем меню
         }
     });
-
     /*close header mobile menu*/
+    //search
+
+    $( ".f-search a" ).click(function() {
+        $( ".header__wrapper__nav__search" ).slideToggle( "slow", function() {
+            // Animation complete.
+        });
+    });
+
+    // close search
+
+
+
     //
     // /*animate scroll menu*/
     // $(document).on('click', '.nav-top a', function (event) {/*функция прокрутки на блок страницы при клике по элементам меню */
