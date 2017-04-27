@@ -19,7 +19,7 @@
       height: 300px;
       &__wrap{
         height: 40px;
-        width: 424px;
+        width: 100%;
         display: block;
         position: relative;
         float: left;
@@ -95,17 +95,17 @@
         background: #f1c731;
         position: relative;
         cursor: pointer;
-        float: left;
         border: 0;
         outline: 0;
         margin-top: 93px;
-        margin-right: auto;
-        margin-left: auto;
+        display: block;
         font-size: 11px;
         font-family: $latoBlack;
         text-transform: uppercase;
+        margin-right: auto;
+        margin-left: auto;
+      ;
       }
-
     }
     h1 {
       font-size: 60px;
