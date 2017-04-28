@@ -155,11 +155,6 @@
     width: 100%;
   }
   .footer__wrapper__form {
-    float: none;
-    margin: 0 auto;
-  }
-  .footer__wrapper h1, .footer__wrapper p {
-    text-align: center;
   }
   .footer__wrapper__contacts {
     text-align: center;
@@ -225,6 +220,25 @@
 }
 
 @media only screen and (max-width: 736px) {
+  .footer__wrapper__form__wrap .name {
+    margin-left: 13px;
+  }
+  .footer__wrapper__form__wrap input {
+    width: 178px;
+    margin-right: 13px;
+  }
+  .footer__wrapper__form button {
+    margin-top: 130px;
+  }
+  .footer__wrapper__form .warning {
+    margin-left: 53px;
+  }
+  .footer__wrapper__form__wrap textarea {
+    width: 100%;
+  }
+  .footer__wrapper__form {
+    height: 363px;
+  }
 
   .header__wrapper__nav {
     display: none;
@@ -297,14 +311,30 @@
     bottom: -87px;
     z-index: 1;
   }
-  .footer__wrapper__form__item input, .footer__wrapper__form__item textarea, .footer__wrapper form {
-    width: 100%;
-    position: relative;
-    top: -133px;
-  }
 }
 
 @media only screen and (max-width: 500px) {
+
+  .footer__wrapper__form__wrap .name {
+    margin-left: 13px;
+  }
+  .footer__wrapper__form__wrap input {
+    width: 178px;
+    margin-right: 13px;
+  }
+  .footer__wrapper__form button {
+    margin-top: 130px;
+  }
+  .footer__wrapper__form .warning {
+    margin-left: 53px;
+  }
+  .footer__wrapper__form__wrap textarea {
+    width: 100%;
+  }
+  .footer__wrapper__form {
+    height: 363px;
+  }
+
   .header__wrapper__nav {
     display: none;
   }
@@ -375,14 +405,29 @@
     bottom: -87px;
     z-index: 1;
   }
-  .footer__wrapper__form__item input, .footer__wrapper__form__item textarea, .footer__wrapper form {
-    width: 100%;
-    position: relative;
-    top: -133px;
-  }
 }
 
 @media only screen and (max-width: 320px) {
+
+  .footer__wrapper__form__wrap .name {
+    margin-left: 13px;
+  }
+  .footer__wrapper__form__wrap input {
+    width: 178px;
+    margin-right: 13px;
+  }
+  .footer__wrapper__form button {
+    margin-top: 130px;
+  }
+  .footer__wrapper__form .warning {
+    margin-left: 53px;
+  }
+  .footer__wrapper__form__wrap textarea {
+    width: 100%;
+  }
+  .footer__wrapper__form {
+    height: 363px;
+  }
   .header2__wrapper__logo {
     margin-top: 30px;
   }
@@ -451,11 +496,6 @@
     text-transform: uppercase;
     bottom: -87px;
     z-index: 1;
-  }
-  .footer__wrapper__form__item input, .footer__wrapper__form__item textarea, .footer__wrapper form {
-    width: 100%;
-    position: relative;
-    top: -133px;
   }
 
   //  page 2 internal page

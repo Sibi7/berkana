@@ -65,7 +65,9 @@
         border: none;
       }
       &:hover{
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 14px 24.2px 57px rgba(0, 0, 0, 0.3);
         transform: scale(1.1);
         transition: 500ms ease;
       }
@@ -90,6 +92,7 @@
       position: relative;
       float: left;
       top: -258px;
+      z-index: -1;
     }
     .owl-next {
       position: relative;

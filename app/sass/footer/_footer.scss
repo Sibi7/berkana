@@ -38,6 +38,10 @@
           line-height: 24px;
           margin-right: 10px;
           width: 84px;
+          span{
+            color: #df6f58;
+            font-size: 13px;
+          }
         }
         input{
           display: block;
@@ -87,6 +91,7 @@
         color: #9fa1a5;
         span{
           color: #df6f58;
+          font-size: 13px;
         }
       }
       button{
@@ -98,6 +103,7 @@
         border: 0;
         outline: 0;
         margin-top: 93px;
+        border-radius: 10px;
         display: block;
         font-size: 11px;
         font-family: $latoBlack;
