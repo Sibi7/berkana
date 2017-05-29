@@ -52,8 +52,6 @@ $(document).ready(function () {
         focusOnSelect: true
     });
 
-
-
     //end slick slider
 
 
