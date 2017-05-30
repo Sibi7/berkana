@@ -22,6 +22,7 @@
       position: relative;
       float: left;
       border-radius: 10px;
+      transition: 300ms ease;
       cursor: pointer;
       margin: 50px 20px;
       &__circle{
@@ -63,17 +64,19 @@
       &:hover button{
         background: #ffc80a;
         border: none;
+        transition: 300ms ease;
       }
       &:hover{
         background-color: white;
         border-radius: 10px;
-        box-shadow: 14px 24.2px 57px rgba(0, 0, 0, 0.3);
-        transform: scale(1.1);
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+        transform: scale(1.03);
         transition: 500ms ease;
       }
       button{
         width: 150px;
         height: 30px;
+        transition: 300ms ease;
         margin: 40px auto 25px auto;
         display: block;
         outline: none;

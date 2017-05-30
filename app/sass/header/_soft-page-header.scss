@@ -1,0 +1,11 @@
+.soft-page-menu{
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  background: #ffca00;
+  height: 50px;
+  .header__wrapper__nav__menu li a{
+    color: #2c2c2c;
+  }
+}
