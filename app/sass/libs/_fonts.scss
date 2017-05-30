@@ -6,7 +6,18 @@ $latoReg: 'LatoRegular';
 $openSansSemiB: 'OpenSansSemibold';
 $qanelasExtra: 'QanelasExtraBold';
 $montserratBlack: 'MontserratBlack';
+$myriadRegular: 'MyriadProRegular';
 
+
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+  url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 
 @font-face {
   font-family: 'latoBlack';
