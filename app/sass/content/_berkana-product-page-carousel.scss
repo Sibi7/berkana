@@ -1,0 +1,24 @@
+.product-page-carousel{
+  width: 100%;
+  position: relative;
+  float: left;
+  display: block;
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 34px;
+    margin: 0 auto;
+    padding-top: 13px;
+  }
+  .joint-products__wrapper__item  {
+    &:hover h4{
+      font-family: $latoBlack;
+    }
+
+  }
+  .products-berkana__why-we-wrapper__title {
+    margin-top: 28px;
+    span{
+      font-family: $latoBlack;
+    }
+  }
+}
