@@ -1,0 +1,51 @@
+.contacts {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: #edeef0;
+  &__absolute {
+    position: relative;
+    top: 55px;
+    width: 500px;
+    height: 350px;
+    box-shadow: 0 16px 23px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    margin: 0 auto;
+    h1 {
+      text-align: center;
+      color: #3d3d3d;
+      font-family: $latoBlack;
+      font-size: 21px;
+      padding: 30px 0 12px 0;
+      text-transform: uppercase;
+      &::after {
+        content: "";
+        width: 86px;
+        height: 1px;
+        background-color: #2c2c2c;
+        display: block;
+        margin: 5px auto 0 auto;
+        position: relative;
+      }
+    }
+    &__phone {
+      display: block;
+      position: relative;
+      margin: 0 auto;
+      width: 376px;
+      img {
+        position: absolute;
+        top: 3px;
+      }
+      p {
+        margin-left: 35px;
+        color: #3d3d3d;
+        font-size: 17px;
+        font-family: $latoReg;
+        line-height: 25px;
+      }
+    }
+
+  }
+}
