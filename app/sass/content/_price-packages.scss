@@ -1,0 +1,86 @@
+.price-packages{
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: #edeef0;
+  h1{
+    text-align: center;
+    margin: 40px 0;
+    color: #3d3d3d;
+    font-size: 21px;
+    font-family: $latoBlack;
+    line-height: 16px;
+    text-transform: uppercase;
+    &::after{
+      content: "";
+      width: 86px;
+      height: 1px;
+      background-color: #2c2c2c;
+      display: block;
+      margin: 5px auto 0 auto;
+      position: relative;
+    }
+  }
+  .table>tbody>tr>td{
+    vertical-align: middle;
+    padding: 15px;
+  }
+  .table>tbody>tr>td input[type="number"]{
+    width: 88px;
+    height: 33px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid #dadbdc;
+  }
+  .table>tbody>tr>td input[value]{
+   padding-left: 17px;
+    box-sizing: border-box;
+    color: #3d3d3d;
+  }
+  &__name-product{
+    a{
+      color: #000;
+      font-size: 14px;
+      padding-left: 25px;
+      box-sizing: border-box;
+    text-decoration: underline;
+    }
+    img{
+      padding-left: 25px;
+      width: 35px;
+    }
+  }
+  &__price-product{
+    font-size: 16px;
+    font-family: $latoBlack;
+  }
+  &__sum{
+    color: #7db9bb;
+    font-family: $latoBlack;
+    font-size: 16px;
+  }
+  &__byu a{
+    font-family: $latoBold;
+    font-size: 16px;
+    color: #8c8c8c;
+    &:hover{
+      color: #7db9bb;
+    }
+  }
+  &__result{
+    display: block;
+    float: right;
+    font-size: 13px;
+    margin-right: 180px;
+    p{
+      font-family: $latoBold;
+      text-transform: uppercase;
+      span{
+        color: #7db9bb;
+        font-size: 21px;
+        font-family: $latoBlack;
+      }
+    }
+  }
+}
